@@ -92,7 +92,7 @@ body {
 .navigation {
   width: 60px;
   height: 400px;
-  background: #ff6c98;
+  background: transparent;
   position: fixed; /* Change to fixed position */
   right: -10px;
   top: 50%; /* Vertically align to the center */
@@ -173,9 +173,8 @@ transform: translateX(18px); /* Shift right by 3 pixels */
   left: -32px;
   height: 70px;
   width: 70px;
-  background: #ff6c98;
+  background: transparent;
   border-radius: 50%;
-  border: 6px solid var(--clr2);
   transition: 0.5s;
   z-index: 1;
 }
